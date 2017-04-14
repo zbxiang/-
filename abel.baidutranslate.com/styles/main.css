@@ -1,0 +1,16 @@
+.wrap{margin:100px auto;width:900px;height: auto;box-shadow:0 0 4px #ccc; padding: 20px 0; }
+.wrap .language{position:relative;width:100px;height:30px;padding:0 30px;margin:10px;text-align:center;line-height:30px;cursor: pointer; background-color: #4395ff; box-shadow: 0 0 4px #ccc; border-radius: 5px; color: #fff; }
+.wrap .language .languages{ position:absolute;top:30px;left:-1px; width: 345px; height: auto; border: 1px solid #434343; cursor: pointer; display: none; background-color: #fff; z-index: 200; }
+.wrap .language .languages ul{ padding: 5px 0 0 5px; }
+.wrap .language .languages ul li{ float: left; width: 78px; height: 40px; border: 1px dashed #ccc; margin-right: 5px; margin-bottom: 5px; line-height: 40px; color: #fff; background-color: #4395ff; }
+.wrap .content{ margin: 0 10px; }
+.wrap .input{ min-height: 82px; padding: 10px 10px 40px; border: 1px solid #dedede; background-color: #fff; position: relative; float: left; }
+.wrap .transConeter{ float: left; width: 425px; height: 132px; background-color: #f0f0f0; border: 1px solid #eee; }
+.wrap .show{ padding: 10px 10px 40px; font-size: 20px; color: #333; text-indent: 10px; }
+.wrap .input textarea{ border: 0; resize: none; outline: 0; z-index: 3; color: #333; font-family: "微软雅黑"; margin: 0; padding: 0; line-height: 30px; font-size: 20px; color: #333; width: 425px; height: 70px; text-indent: 10px; }
+.wrap .input textarea::-webkit-input-placeholder{ font-size: 24px; color: #e7e7e7; }
+.wrap .input textarea:-moz-placeholder{ font-size: 24px; color: #e7e7e7; }
+.wrap .input textarea::-moz-placeholder{ font-size: 24px; color: #e7e7e7; }
+.wrap .input textarea:-ms-input-placeholder{ font-size: 24px; color: #e7e7e7; }
+.wrap .btns{ margin: 10px; }
+.wrap .btn{ width: 80px; hegith: 40px; line-height: 40px; box-shadow:0 0 4px #ccc; background-color: #4395ff; display: block; text-align: center; font-size: 16px; color: #fff; float: left; border-radius: 5px; cursor: pointer; margin-right: 10px; }

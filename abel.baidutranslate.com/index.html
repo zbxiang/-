@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在线翻译</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="keywords" content="翻译" />
+	<meta name="description" content="在线翻译">
+	<meta name="author" content="zbxiang">
+	<link href="styles/reset.css" rel="stylesheet" />
+	<link href="styles/main.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="wrap">
+		<div class="language">
+			<span>自动检测</span>
+			<div class="languages">
+				<ul>
+					<li data-ln="zh">中文</li>
+					<li data-ln="en">英文</li>
+					<li data-ln="yue">粤语</li>
+					<li data-ln="jp">日语</li>
+					<li data-ln="kor">韩语</li>
+					<li data-ln="fra">法语</li>
+					<li data-ln="spa">西班牙语</li>
+					<li data-ln="ru">俄语</li>
+					<li data-ln="pl">波兰语</li>
+					<li data-ln="fin">芬兰语</li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="input">
+				<textarea name="text" id="text" cols="30" rows="10" placeholder="输入文字,即可翻译"></textarea>
+			</div>
+			<div class="transConeter">
+				<div class="show"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="btns">
+			<span class="translate btn">点击翻译</span>
+			<span class="empty btn">清空</span>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/MD5.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
